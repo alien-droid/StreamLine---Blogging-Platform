@@ -1,4 +1,6 @@
-A React-based blogging platform where users can write and update posts mapped to different categories, along with abilities to comment in the app.
+# StreamLine
+
+A dynamic React blogging platform for crafting and sharing content across diverse categories, with options to allow users to comment on different posts.
 
 ![image](https://github.com/alien-droid/StreamLine---Blogging-Platform/assets/77412085/2605e4c9-5628-42dd-920f-0e1d4a2ceace)
 
@@ -7,7 +9,7 @@ A React-based blogging platform where users can write and update posts mapped to
 2. Node/ExpressJS for the Backend.
 3. MongoDB for the Database Storage.
 
-Libraries Used:
+## Libraries Used:
 - React
 - React-Router
 - React-Quill (For Editor Purposes) [Ref](https://www.npmjs.com/package/react-quill)
