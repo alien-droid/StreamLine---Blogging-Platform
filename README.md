@@ -18,6 +18,7 @@ A dynamic React blogging platform for crafting and sharing content across divers
 - date-fns (A Date-based formatting util) [Ref](https://www.npmjs.com/package/react-multi-select-component)
 - Bcryptjs (To store hashed passwords) [Ref](https://www.npmjs.com/package/bcrypt)
 - JWT (JSON Web Tokens for authorization/authentication) : [Ref](https://www.npmjs.com/package/jsonwebtoken)
+- Multer (To Handle 'File' Upload) : [Ref](https://www.npmjs.com/package/multer)
 
 
 
