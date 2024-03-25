@@ -10,12 +10,12 @@ A React-based blogging platform where users can write and update posts mapped to
 Libraries Used:
 - React
 - React-Router
-- React-Quill (For Editor Purposes) [Link](https://www.npmjs.com/package/react-quill)
-- React-Mutli-Select-Component (For the purpose of adding tags). [Link](https://www.npmjs.com/package/react-multi-select-component)
-- React-Toastify (For showing toast based messages) [Link](https://github.com/fkhadra/react-toastify)
-- Date-fns (A Date-based formatting util) [Link](https://www.npmjs.com/package/react-multi-select-component)
-- Bcryptjs (For the purpose of storing hashed passwords) [Link](https://www.npmjs.com/package/bcrypt)
-- JWT (JSON Web Tokens for authorization/authentication) [Link](https://www.npmjs.com/package/jsonwebtoken
+- React-Quill (For Editor Purposes) [Ref](https://www.npmjs.com/package/react-quill)
+- React-Mutli-Select-Component (To add tags). [Ref](https://www.npmjs.com/package/react-multi-select-component)
+- React-Toastify (For showing toast-based messages) [Ref](https://github.com/fkhadra/react-toastify)
+- date-fns (A Date-based formatting util) [Ref](https://www.npmjs.com/package/react-multi-select-component)
+- Bcryptjs (To store hashed passwords) [Ref](https://www.npmjs.com/package/bcrypt)
+- JWT (JSON Web Tokens for authorization/authentication) : [Ref](https://www.npmjs.com/package/jsonwebtoken)
 
 
 
