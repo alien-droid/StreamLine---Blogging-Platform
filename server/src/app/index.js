@@ -30,7 +30,7 @@ app.get('/example', verifyJWT, (req, res) => {
 
 app.use(Router)
 
-const port = 4000 // Port we will listen on
+const port = process.env.PORT || 4000 // Port we will listen on
 
 // Function to listen on the port
 connectToDB().then(() => {

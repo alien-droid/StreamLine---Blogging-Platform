@@ -1,16 +1,17 @@
 import mongoose from 'mongoose'
 
 let isConnected = false
-const MONGODDB_URI = "mongodb+srv://aditya1996:adityapokemon1@cluster0.cvdplaq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" // can be moved to the 'env' variable
+ // can be moved to the 'env' variable
+const MONGODB_URI = process.env.MONGODB_URI
 export const connectToDB = async () => {
 
     mongoose.set('strictQuery', true)
-    if (!MONGODDB_URI) return console.log('MONGO DB not defined')
+    if (!MONGODB_URI) return console.log('MONGO DB not defined')
 
     if (isConnected) return console.log('Using existing db connection')
 
     try {
-        await mongoose.connect(MONGODDB_URI)
+        await mongoose.connect(MONGODB_URI)
         isConnected = true
         console.log('MongoDB Connected')
     }
