@@ -24,10 +24,10 @@ A dynamic React blogging platform for crafting and sharing content across divers
 - The project has been divided into two subparts: client (for React), and server (for node/express).
 - For running both ends, we need to install the necessary dependencies, so run `npm install` on respective folders.
 - After the dependencies are installed, we can individually run both ends.
-  -- For running the server (back-end), execute `npm run dev` (running on port 4000, by default)
-  -- For running the client (front-end), execute `npm start` (running on port 3000).
+  1. For running the server (back-end), execute `npm run dev` (running on port 4000, by default)
+  2. For running the client (front-end), execute `npm start` (running on port 3000).
 
 - The server folder contains a '.env' which has  the following environment variables:
-  -- MONGODB_URI - Your Mongo DB URI (for storage purposes).
-  -- PORT - Default port to run the server application.
-  -- JWT_SECRET - a random string (20 bytes) used to generate JSON web tokens.
+  1. **MONGODB_URI** - Your Mongo DB URI (for storage purposes).
+  2. **PORT** - Default port to run the server application.
+  3. **JWT_SECRET** - a random string (20 bytes) used to generate JSON web tokens.
